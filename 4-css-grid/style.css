@@ -5,43 +5,31 @@
     grid-gap: 20px;
 }
 
-.A {
-    grid-column-start: 1;
-    grid-column-end: 3;
+div {
     background-color: #25302C;
     color: white;
     border: black solid 2px;
     border-radius: 10px;
     padding: 10px;
+}
+
+.A {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .B {
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 3;
-    background-color: #25302C;
-    color: white;
-    border: black solid 2px;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .C {
     grid-row-start: 2;
     grid-column-start: 1;
-    background-color: #25302C;
-    color: white;
-    border: black solid 2px;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 .D {
     grid-row-start: 2;
     grid-column-start: 2;
-    background-color: #25302C;
-    color: white;
-    border: black solid 2px;
-    border-radius: 10px;
-    padding: 10px;
 }
