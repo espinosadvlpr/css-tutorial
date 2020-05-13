@@ -1,0 +1,34 @@
+.footer {
+    position: fixed;
+    border: 2px orange solid;
+    background-color: black;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+.header {
+    position: sticky;
+    border: 2px green solid;
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    position: absolute;
+    border: 2px blue solid;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.section-wrapper {
+    position: relative;
+    left: 200px;
+    padding-left: 2px;
+}
+
+.section {
+    position: static;
+    border: 2px red solid;
+    width: calc(100% - 200px);
+}
